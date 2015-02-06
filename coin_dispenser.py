@@ -29,9 +29,9 @@ assert [0,1,0,0] == dispenser.make_change(10)
 assert [0,1,0,1] == dispenser.make_change(11)
 assert [0,1,1,0] == dispenser.make_change(15)
 assert [0,1,1,1] == dispenser.make_change(16)
-##assert [1,0,0,0] == dispenser.make_change(25)
-##assert [2,0,0,1] == dispenser.make_change(51)
-##assert [3,2,0,4] == dispenser.make_change(99)
+assert [1,0,0,0] == dispenser.make_change(25)
+assert [2,0,0,1] == dispenser.make_change(51)
+assert [3,2,0,4] == dispenser.make_change(99)
 
 print("Congratulations!  All assertions passed.")
 
